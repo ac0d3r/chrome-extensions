@@ -1,0 +1,20 @@
+{
+  "name": "BiliFans",
+  "version": "0.1",
+  "description": "实时显示 bilibili 粉丝数",
+  "manifest_version": 2,
+  "icons": {
+    "48": "images/bili_white_48.png",
+    "68": "images/bili_white_48.png",
+    "128": "images/bili_white_48.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "38": "images/bili_white_48.png"
+    },
+    "default_title": "BiliFans",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["*://*.bilibili.com/*", "notifications", "storage", "tabs"],
+  "web_accessible_resources": ["images/*.png"]
+}
