@@ -15,6 +15,6 @@
     "default_title": "BiliFans",
     "default_popup": "popup.html"
   },
-  "permissions": ["*://*.bilibili.com/*", "notifications", "storage", "tabs"],
+  "permissions": ["*://*.bilibili.com/*", "storage", "tabs"],
   "web_accessible_resources": ["images/*.png"]
 }
